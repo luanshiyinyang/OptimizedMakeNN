@@ -4,7 +4,7 @@
 	- it is a mini tool for drawing a neural network graph by graphviz.
 	- in this project, i optimize some code(from Python2 to Python3) for best use by command line.
 - install
-	- you can get this project by `git clone`
+	- you can get this project by `git clone git@github.com:luanshiyinyang/OptimizedMakeNN.git`
 	- please install graphviz in your computer
 - instruction
 	- in origin project from [rtygbwwwerr](https://github.com/rtygbwwwerr),you can use this command to draw net structure graphy
