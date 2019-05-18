@@ -3,6 +3,9 @@
 	- origin project from [https://github.com/rtygbwwwerr/MakeNN1.git](https://github.com/rtygbwwwerr/MakeNN1.git).
 	- it is a mini tool for drawing a neural network graph by graphviz.
 	- in this project, i optimize some code(from Python2 to Python3) for best use by command line.
+- install
+	- you can get this project by `git clone`
+	- please install graphviz in your computer
 - instruction
 	- in origin project from [rtygbwwwerr](https://github.com/rtygbwwwerr),you can use this command to draw net structure graphy
 		- `python src/makeNN.py config.txt`
@@ -21,7 +24,14 @@
 		-  -c --config input script to generate gv files
 		-  -o --output PNG picture directory (e.g. Output.rst.png, rst.png, etc.)
 		- Attention
-			- - the above -i and -c conflict, do not enter at the same time (** or priority according to -i gv file to generate pictures **)
+			- the above -i and -c conflict, do not enter at the same time (** or priority according to -i gv file to generate pictures **)
+- samples
+	- `python main.py --output rst.png`
+	- config
+		- ![](https://img-blog.csdnimg.cn/20190518132446125.png)
+	- result
+		- ![](https://img-blog.csdnimg.cn/20190518132505915.png)
 - something more
 	- This project is suitable for neuronal mapping, deep neural networks (such as convolutional neural networks), this tool is not suitable for you.\
 	- if you want to read README.md written by Chinese, please visit README.md.
+	- Testing is currently done only in a Windows environment. This project started from my Github address, welcome star or fork.

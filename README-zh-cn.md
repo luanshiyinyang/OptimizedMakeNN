@@ -3,6 +3,9 @@
 	- 原始项目地址 [https://github.com/rtygbwwwerr/MakeNN1.git](https://github.com/rtygbwwwerr/MakeNN1.git)。
 	- 这是一个轻量的绘制神经网络结构图（主要神经元结构）的绘图工具包，基于graphviz。
 	- 在这个项目中，我优化了一些代码（由Python2迁移Python3） ，使之在命令行下使用更加方便。
+- 安装
+	- 使用git clone 
+	- 请一定安装graphviz软件并配置环境变量
 - 说明
 	- 原始项目由[rtygbwwwerr](https://github.com/rtygbwwwerr)完成,在原始项目中你可以使用下面的命令行命令绘制神经元结构图。
 		- `python src/makeNN.py config.txt`
@@ -22,5 +25,13 @@
 		- -o --output 输出png图片目录（如output.rst.png、rst.png等）
 		- 注意
 			- 上述-i与-c冲突，不要同时输入（**否则优先按照-i的gv文件生成图片**）
+- 使用示例
+	- `python main.py --output rst.png`
+	- 配置文件如下
+		- ![](https://img-blog.csdnimg.cn/20190518132446125.png)
+	- 结果如下
+		- ![](https://img-blog.csdnimg.cn/20190518132505915.png)
 - 补充说明
 	- 本项目适合神经元绘图，深层神经网络（如卷积神经网络），这个工具并不适合你。
+	- 目前只在windows环境下测试完成。
+	- 本项目开源于我的Github地址，欢迎star或者fork。
