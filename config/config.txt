@@ -1,0 +1,6 @@
+# layer_name, node_number, node_color, node_connect[node number->node number]
+input,5,red2,[(node0_0->node1_1)=(node0_1->node1_2)=(node0_3->node1_2)]
+h0,5,red2,[(node1_0->node2_1)=(node1_1->node2_2)=(node1_3->node2_2)]
+h1,3,seagreen2,[(all->all)]
+h2,5,red2,[(all->all)]
+output,5,red2,[(None->None)]

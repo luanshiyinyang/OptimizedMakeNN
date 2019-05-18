@@ -1,0 +1,170 @@
+digraph G {
+            rankdir=LR
+            splines=line
+            nodesep=.05;
+            node [label=""];
+            
+            subgraph cluster_0 {
+           color=white;
+           node [style=solid,color=red2, shape=circle];
+           node0_0 node0_1 node0_2 node0_3 node0_4;
+           label = "input";
+         }
+        
+subgraph cluster_1 {
+           color=white;
+           node [style=solid,color=red2, shape=circle];
+           node1_0 node1_1 node1_2 node1_3 node1_4;
+           label = "h0";
+         }
+        
+subgraph cluster_2 {
+           color=white;
+           node [style=solid,color=seagreen2, shape=circle];
+           node2_0 node2_1 node2_2;
+           label = "h1";
+         }
+        
+subgraph cluster_3 {
+           color=white;
+           node [style=solid,color=red2, shape=circle];
+           node3_0 node3_1 node3_2 node3_3 node3_4;
+           label = "h2";
+         }
+        
+subgraph cluster_4 {
+           color=white;
+           node [style=solid,color=red2, shape=circle];
+           node4_0 node4_1 node4_2 node4_3 node4_4;
+           label = "output";
+         }
+        
+            
+            node0_0->node1_1
+node0_1->node1_2
+node0_3->node1_2
+node1_0->node2_1
+node1_1->node2_2
+node1_3->node2_2
+
+        node2_0 -> node3_0
+        
+
+        node2_0 -> node3_1
+        
+
+        node2_0 -> node3_2
+        
+
+        node2_0 -> node3_3
+        
+
+        node2_0 -> node3_4
+        
+
+        node2_1 -> node3_0
+        
+
+        node2_1 -> node3_1
+        
+
+        node2_1 -> node3_2
+        
+
+        node2_1 -> node3_3
+        
+
+        node2_1 -> node3_4
+        
+
+        node2_2 -> node3_0
+        
+
+        node2_2 -> node3_1
+        
+
+        node2_2 -> node3_2
+        
+
+        node2_2 -> node3_3
+        
+
+        node2_2 -> node3_4
+        
+
+        node3_0 -> node4_0
+        
+
+        node3_0 -> node4_1
+        
+
+        node3_0 -> node4_2
+        
+
+        node3_0 -> node4_3
+        
+
+        node3_0 -> node4_4
+        
+
+        node3_1 -> node4_0
+        
+
+        node3_1 -> node4_1
+        
+
+        node3_1 -> node4_2
+        
+
+        node3_1 -> node4_3
+        
+
+        node3_1 -> node4_4
+        
+
+        node3_2 -> node4_0
+        
+
+        node3_2 -> node4_1
+        
+
+        node3_2 -> node4_2
+        
+
+        node3_2 -> node4_3
+        
+
+        node3_2 -> node4_4
+        
+
+        node3_3 -> node4_0
+        
+
+        node3_3 -> node4_1
+        
+
+        node3_3 -> node4_2
+        
+
+        node3_3 -> node4_3
+        
+
+        node3_3 -> node4_4
+        
+
+        node3_4 -> node4_0
+        
+
+        node3_4 -> node4_1
+        
+
+        node3_4 -> node4_2
+        
+
+        node3_4 -> node4_3
+        
+
+        node3_4 -> node4_4
+        
+            }
+        

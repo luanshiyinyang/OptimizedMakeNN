@@ -1,0 +1,26 @@
+# OptimizedMakeNN
+- 简介
+	- 原始项目地址 [https://github.com/rtygbwwwerr/MakeNN1.git](https://github.com/rtygbwwwerr/MakeNN1.git)。
+	- 这是一个轻量的绘制神经网络结构图（主要神经元结构）的绘图工具包，基于graphviz。
+	- 在这个项目中，我优化了一些代码（由Python2迁移Python3） ，使之在命令行下使用更加方便。
+- 说明
+	- 原始项目由[rtygbwwwerr](https://github.com/rtygbwwwerr)完成,在原始项目中你可以使用下面的命令行命令绘制神经元结构图。
+		- `python src/makeNN.py config.txt`
+	- `config.txt` 是生成图结构的配置文件, 使用utf-8编码修改即可生成自定义图片。
+		- **这里其实是对graphviz dot语言神经元绘图的模式做了封装，如果很擅长dot语言，可以直接使用其编写脚本。**
+		- 这个文件中每一行表示一层，具体格式必须按照config.txt文件示例。（**编码一定要utf-8，标点使用英文标点**）
+			- 层名称
+			- 神经元个数
+			- 神经元上色颜色
+			- 该层与下一层的神经元连接
+				- 节点noden_m（如第1层输入层第二个节点到第一个隐层第二个节点node0_1->node1_1）
+				- all->all表示全连接
+				- None->None表示无连接，一般为最后一层
+	- 命令行参数
+		- -i --input 输入的gv文件（dot语言编写，不输入则依据config.txt生成）
+		- -c --config 输入的生成gv文件的脚本
+		- -o --output 输出png图片目录（如output.rst.png、rst.png等）
+		- 注意
+			- 上述-i与-c冲突，不要同时输入（**否则优先按照-i的gv文件生成图片**）
+- 补充说明
+	- 本项目适合神经元绘图，深层神经网络（如卷积神经网络），这个工具并不适合你。
