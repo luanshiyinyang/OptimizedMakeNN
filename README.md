@@ -32,6 +32,6 @@
 	- result
 		- ![](https://img-blog.csdnimg.cn/20190518132505915.png)
 - something more
-	- This project is suitable for neuronal mapping, deep neural networks (such as convolutional neural networks), this tool is not suitable for you.\
-	- if you want to read README.md written by Chinese, please visit README.md.
+	- This project is suitable for neuronal mapping, deep neural networks (such as convolutional neural networks), this tool is not suitable for you.
+	- if you want to read README.md written by Chinese, please visit [README.md](https://github.com/luanshiyinyang/OptimizedMakeNN/blob/master/README-zh-cn.md).
 	- Testing is currently done only in a Windows environment. This project started from my Github address, welcome star or fork.

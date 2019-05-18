@@ -4,7 +4,7 @@
 	- 这是一个轻量的绘制神经网络结构图（主要神经元结构）的绘图工具包，基于graphviz。
 	- 在这个项目中，我优化了一些代码（由Python2迁移Python3） ，使之在命令行下使用更加方便。
 - 安装
-	- 使用git clone 
+	- 使用`git clone `
 	- 请一定安装graphviz软件并配置环境变量
 - 说明
 	- 原始项目由[rtygbwwwerr](https://github.com/rtygbwwwerr)完成,在原始项目中你可以使用下面的命令行命令绘制神经元结构图。
